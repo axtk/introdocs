@@ -15,7 +15,7 @@
     "patch": "node src/scripts/patch.ts",
     "preversion": "npx npm-run-all shape build",
     "schema": "npx ts-json-schema-generator -p src/types/Config.ts -t Config -o schema.json --minify",
-    "shape": "npx codeshape --check"
+    "shape": "npx codeshape check"
   },
   "repository": {
     "type": "git",
