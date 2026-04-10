@@ -1,17 +1,17 @@
 ```sh
-# with specified entries (e.g. in docsgen.config.json)
-npx @t8/docsgen [...<entry id or dir>]
+# with specified entries (e.g. in introdocs.config.json)
+npx introdocs [...<entry id or dir>]
 
 # without entries
-npx @t8/docsgen <dir path> <repo URL>
+npx introdocs <dir path> <repo URL>
 ```
 
 <details>
-<summary>Example of <i>docsgen.config.json</i></summary>
+<summary>Example of <i>introdocs.config.json</i></summary>
 
 ```
 {
-  "$schema": "https://unpkg.com/@t8/docsgen/schema.json",
+  "$schema": "https://unpkg.com/introdocs/schema.json",
   "baseColor": "purple",
   "favicon": "/assets/favicon.png",
   "append": {
@@ -44,13 +44,13 @@ npx @t8/docsgen <dir path> <repo URL>
 ---
 
 ```html
-<!-- docsgen-show-start --
+<!-- introdocs-show-start --
 Reveal during content generation
--- docsgen-show-end -->
+-- introdocs-show-end -->
 ```
 
 ```html
-<!-- docsgen-hide-start -->
+<!-- introdocs-hide-start -->
 Hide during content generation
-<!-- docsgen-hide-end -->
+<!-- introdocs-hide-end -->
 ```

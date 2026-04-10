@@ -54,7 +54,7 @@ export async function getConfig(): Promise<Config> {
 
   try {
     localConfig = JSON.parse(
-      await fetchContent("./docsgen.config.json"),
+      await fetchContent("./introdocs.config.json"),
     ) as Config;
 
     delete localConfig.$schema;

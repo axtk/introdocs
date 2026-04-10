@@ -1,1 +1,1 @@
-export const packageName = "@t8/docsgen";
+export const packageName = "introdocs";

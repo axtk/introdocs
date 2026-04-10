@@ -1,11 +1,11 @@
 {
-  "name": "@t8/docsgen",
+  "name": "introdocs",
   "version": "0.4.27",
   "description": "",
   "main": "dist/bin.js",
   "type": "module",
   "bin": {
-    "docsgen": "dist/bin.js"
+    "introdocs": "dist/bin.js"
   },
   "scripts": {
     "build": "npx npm-run-all clean build-bin build-css",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/t8js/docsgen.git"
+    "url": "git+https://github.com/axtk/introdocs.git"
   },
   "license": "MIT",
   "author": "axtk",

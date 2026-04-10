@@ -1,11 +1,11 @@
 const marker = {
   show: {
-    start: "<!-- docsgen-show-start --",
-    end: "-- docsgen-show-end -->",
+    start: "<!-- introdocs-show-start --",
+    end: "-- introdocs-show-end -->",
   },
   hide: {
-    start: "<!-- docsgen-hide-start -->",
-    end: "<!-- docsgen-hide-end -->",
+    start: "<!-- introdocs-hide-start -->",
+    end: "<!-- introdocs-hide-end -->",
   },
 };
 
